@@ -1,5 +1,5 @@
 package net.adingy.tutorialmod;
-
+// hiiii!
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
