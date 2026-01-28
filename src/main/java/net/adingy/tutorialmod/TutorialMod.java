@@ -1,6 +1,7 @@
 package net.adingy.tutorialmod;
 // hiiii!
 import net.adingy.tutorialmod.block.ModBlocks;
+import net.adingy.tutorialmod.item.ModItemGroups;
 import net.adingy.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,6 +16,8 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 		public void onInitialize() {
+			ModItemGroups.registerItemGroups();
+
 			ModItems.registerModItems();
 			ModBlocks.registerModBlocks();
 		}
